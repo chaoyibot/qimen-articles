@@ -1,0 +1,11 @@
+{
+  "title": "奇门遁甲排盘基础知识：一张图读懂三奇六仪与九宫",
+  "summary": "一张图入门奇门遁甲，从概念到看盘全流程",
+  "cover_prompt": "Traditional Chinese qimen dunjia bagua compass (luopan) and nine-grid palace chart, ancient mystical style, dark navy and gold color palette, ink wash technique, soft candlelight, top-down view, no text, high resolution wide composition",
+  "cover_style": "inkwash",
+  "inline_prompts": [
+    "Three glowing Chinese mystical symbols (yi bing ding) floating over the nine palace grid, blue and gold ink wash, dark background, no text, cinematic lighting",
+    "An ancient Chinese divination desk with bamboo sticks, copper compass, and rice paper, warm candlelight, atmospheric perspective, no text",
+    "Two scrolls side by side on a wooden table, one showing a nine-grid palace chart with red highlights, the other showing a calligraphy contract, soft warm light, no text, photorealistic"
+  ]
+}
