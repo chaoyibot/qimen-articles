@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FFB6C1">
+<title>奇门遁甲文章集</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #F5F6FA;
+    color: #333;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    padding: 16px;
+  }
+  .page { max-width: 680px; margin: 0 auto; }
+  .header {
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 32px 24px;
+    text-align: center;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  }
+  .header h1 {
+    color: #FFB6C1;
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .header p { color: #888; font-size: 14px; }
+  .article-list { display: flex; flex-direction: column; gap: 16px; }
+  .article {
+    background: #FFFFFF;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.2s;
+  }
+  .article:hover { transform: translateY(-2px); }
+  .article-cover {
+    width: 100%;
+    aspect-ratio: 21/9;
+    object-fit: cover;
+    display: block;
+  }
+  .article-info { padding: 16px 18px; }
+  .article-info h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFB6C1;
+    margin-bottom: 6px;
+  }
+  .article-info p {
+    color: #888;
+    font-size: 14px;
+  }
+  .badge {
+    display: inline-block;
+    background: #FFF0F3;
+    color: #FFB6C1;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+  footer {
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    margin: 24px 0 16px;
+  }
+  footer a { color: #FFB6C1; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <h1>🌸 奇门遁甲文章集</h1>
+    <p>公众号文章自动排版 · Spring 樱花粉风格</p>
+  </div>
+  <div class="article-list">
+    <a href="qimen-article.html" class="article">
+      <img src="images/cover.png" alt="封面" class="article-cover" />
+      <div class="article-info">
+        <h2>奇门遁甲排盘基础知识：一张图读懂三奇六仪与九宫</h2>
+        <p>一张图入门奇门遁甲，从概念到看盘全流程</p>
+        <span class="badge">Spring 风格1 · 樱花粉</span>
+      </div>
+    </a>
+  </div>
+  <footer>
+    © 2026 · <a href="https://github.com/chaoyibot/qimen-articles">GitHub</a>
+  </footer>
+</div>
+</body>
+</html>
