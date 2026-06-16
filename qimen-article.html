@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="奇门遁甲排盘基础知识：一张图读懂三奇六仪与九宫。Spring 樱花粉风格排版。">
+<meta name="theme-color" content="#FFB6C1">
+<title>奇门遁甲排盘基础知识 — 公众号文章</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #F5F6FA;
+    color: #333;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 16px;
+  }
+  .page {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  .card {
+    background: #FFFFFF;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  }
+  .header {
+    background: #FFFFFF;
+    border-radius: 14px 14px 0 0;
+    padding: 20px 18px;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFB6C1;
+    margin: 0;
+  }
+  .header .subtitle {
+    color: #888;
+    font-size: 14px;
+    margin-top: 6px;
+  }
+  .body {
+    padding: 18px;
+  }
+  .body img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    margin: 16px 0;
+  }
+  .body h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFB6C1;
+    margin: 24px 0 12px;
+    border-left: 4px solid #FFB6C1;
+    padding-left: 10px;
+  }
+  .body h3 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFB6C1;
+    margin: 18px 0 10px;
+  }
+  .body p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin: 12px 0;
+  }
+  .body ul {
+    padding-left: 20px;
+    line-height: 1.8;
+    color: #333;
+    margin: 12px 0;
+  }
+  .body li {
+    margin: 4px 0;
+  }
+  .body blockquote {
+    background: #F7F7F7;
+    border-left: 4px solid #FFB6C1;
+    padding: 12px 14px;
+    margin: 16px 0;
+    color: #555;
+    border-radius: 6px;
+  }
+  .cta {
+    background: #FFF0F3;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .cta strong { color: #FFB6C1; }
+  .back-home {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 10px 20px;
+    background: #FFB6C1;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  .back-home:hover { background: #FF99AC; }
+  footer {
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    margin: 24px 0 16px;
+  }
+  footer a { color: #FFB6C1; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="card">
+    <div class="header">
+      <h1>奇门遁甲排盘基础知识：一张图读懂三奇六仪与九宫</h1>
+      <p class="subtitle">一张图入门奇门遁甲，从概念到看盘全流程</p>
+    </div>
+    <div class="body">
+      <img src="images/cover.png" alt="奇门遁甲封面" />
+      <h2>奇门遁甲排盘基础知识：一张图读懂三奇六仪与九宫</h2>
+      <p>🌸 奇门遁甲被誉为"三式之首"，融天文、历法、阴阳五行于一身，是古代最高层次的决策模型。</p>
+      <p>🌸 无论你是想了解传统文化，还是想用现代视角重新审视古人智慧，这篇文章都会带你走完第一步：<strong>看懂一张奇门盘</strong>。</p>
+      <h3>一、奇门遁甲的三个核心概念</h3>
+      <ul>
+        <li><strong>三奇</strong>：乙、丙、丁，分别代表月亮、太阳、星星，对应柔和、显赫、隐秘三种能量。</li>
+        <li><strong>六仪</strong>：戊、己、庚、辛、壬、癸，是六支天干，用作"承载"三奇遁形的骨架。</li>
+        <li><strong>九宫</strong>：源自洛书，即 1-9 的数字方阵，对应八个方位加中央，是排盘的容器。</li>
+      </ul>
+      <blockquote>简单记：三奇是"宾客"，六仪是"马匹"，九宫是"舞台"。</blockquote>
+      <h3>二、排盘前的三组参数</h3>
+      <p>🌷 1. <strong>时家奇门</strong> 最常用——以问事的时辰起盘。需先查当日干支。</p>
+      <p>🌷 2. <strong>阴阳遁</strong> 决定盘是顺行还是逆行：冬至到夏至用阳遁，夏至到冬至用阴遁。</p>
+      <p>✨ 3. <strong>几局</strong> 决定起盘的"起点宫"：阳遁一局起坎一宫，阴遁九局起离九宫。</p>
+      <h3>三、看盘的四个步骤</h3>
+      <p>🌸 第一步看<strong>值符值使</strong>——这是当期最有权力的两颗"星"和两个"门"，决定事件核心。</p>
+      <p>🌸 第二步看<strong>生克关系</strong>——九宫之间的五行生克揭示事件各方的互动。</p>
+      <p>🌷 第三步看<strong>三奇得不得用</strong>——乙丙丁是否落宫、是否入墓，决定机会能否兑现。</p>
+      <p>🌷 第四步看<strong>空亡与马星</strong>——空亡代表"虚"，驿马代表"动"，是判断时机的关键。</p>
+      <h3>四、一个真实的例子</h3>
+      <p>✨ 假设某日问"我该不该接这个 offer"——</p>
+      <ul>
+        <li>起盘得到值符为天蓬星、值使为休门，落艮八宫。</li>
+        <li>生门在兑七宫，乙方在震三宫。</li>
+        <li>看三奇：乙奇落坎一宫（水），与求测者生辰（水命）相合。</li>
+        <li>结论：可以接，但注意艮宫的天蓬为贼星，签约前要细看条款中关于<strong>竞业</strong>的约定。</li>
+      </ul>
+      <h3>五、新手最容易踩的三个坑</h3>
+      <p>🌸 1. <strong>只看旺衰不看落宫</strong>——奇门盘的"旺衰"是次要的，"落宫"才是核心位置。</p>
+      <p>🌸 2. <strong>忘记时家与日家的差异</strong>——同一时辰日家盘和时家盘结论可能完全相反。</p>
+      <p>🌷 3. <strong>过度依赖软件</strong>——排盘软件是工具，但断盘永远需要人的经验和直觉。</p>
+      <img src="images/inline1.png" alt="三奇六仪配图" />
+      <h2>结语</h2>
+      <p>🌷 奇门遁甲的学习曲线相当陡，但一旦入门，你看到的将不只是一张图，而是一整套古人留下的"概率模型"。</p>
+      <p>✨ 建议从<strong>时家奇门阳遁一局</strong>开始，每天拿一件小事起盘练习，坚持三个月必有收获。</p>
+      <img src="images/inline2.png" alt="排盘参数配图" />
+      <img src="images/inline3.png" alt="案例分析配图" />
+      <div class="cta">
+        <strong>📌 关注我们，获取更多优质内容</strong>
+      </div>
+      <div style="text-align:center;margin-top:24px;">
+        <a href="index.html" class="back-home">← 返回文章列表</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    © 2026 · <a href="https://github.com/chaoyibot/qimen-articles">GitHub</a> · Spring 樱花粉排版
+  </footer>
+</div>
+</body>
+</html>
